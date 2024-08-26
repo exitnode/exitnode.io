@@ -1,0 +1,33 @@
+google_analytics: G-PWNB019992
+
+header_pages:
+  - index.md
+  - events.md
+  - bbs.md
+  - about.md
+
+title: EXITNODE
+description: "> /dev/lp0 2>&1"
+tagline: "> /dev/lp0 2>&1"
+url: "https://exitnode.io"
+timezone: "America/Phoenix"
+
+footer: |
+  <a href="https://discord.gg/p4AJzcqZZm" class="nf nf-fa-discord social-link"></a>
+  <a href="https://www.threads.net/@exitnode.io" class="nf nf-fa-at social-link"></a>
+  <a href="https://github.com/exitnode" class="nf nf-fa-github_alt social-link"></a>
+
+social:
+  name: EXITNODE
+  links:
+    - https://discord.gg/p4AJzcqZZm
+    - https://www.threads.net/@exitnode.io
+    - https://github.com/exitnode
+
+style: dark
+listen_for_clients_preferred_style: true
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-ical-tag

@@ -1,0 +1,36 @@
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.nerdfonts.com; img-src 'self' https://www.googletagmanager.com; font-src 'self' https://fonts.gstatic.com https://www.nerdfonts.com; connect-src 'self' wss://xibalba.vip:44512/ https://www.google-analytics.com; media-src 'self'; object-src 'self'; child-src 'self'; form-action 'none'; base-uri 'self'" />
+  <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
+  <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+  <link rel="manifest" href="/assets/ico/site.webmanifest">
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>{{ page.title }}</title>
+  {%- seo title=false -%}
+
+  {% if page.robots %}
+    <meta name="robots" content="{{page.robots}}" />
+  {% endif %}
+
+  {%- if site.listen_for_clients_preferred_style -%}
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
+  {%- else -%}
+    {%- if site.style == 'light' -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+    {%- elsif site.style == 'hacker' -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-hacker.css" | relative_url }}">
+    {%- else -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <script>0</script>
+</head>
