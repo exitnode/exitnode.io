@@ -15,12 +15,12 @@ In order to contribute you will need to install ruby.  I recommend using rbenv o
 1. Install rbenv, instructions can be found on github
 
 	https://github.com/rbenv/rbenv
-2. Install the version of ruby indicated in the .ruby-version file in this repo, `3.2.2`
+2. Install the version of ruby indicated in the .ruby-version file in this repo, `3.3.0`
 
-	`rbenv install 3.2.2`
-3. While in the directory for this project, set the local version to 3.2.2
+	`rbenv install 3.3.0`
+3. While in the directory for this project, set the local version to 3.3.0
 
-	`rbenv local 3.2.2`
+	`rbenv local 3.3.0`
 4. Install dependencies with Bundler
 
 	`bundle install`
