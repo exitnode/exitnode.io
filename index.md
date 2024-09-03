@@ -7,8 +7,7 @@ permalink: /
 #### Welcome to EXITNODE
 
 # [About Us](/about)
-
-EXITNODE connects online skills with offline impact. We're tech enthusiasts dedicated to making an impact in our local community. Our philosophy is rooted in accessibility and diversity, welcoming anyone with a passion for technology.
+EXITNODE connects online skills with offline impact. We're tech enthusiasts with a passion for connecting with others and providing a network of support for new engineers.  Our philosophy is rooted in accessibility and diversity, we welcome anyone with a passion for technology.
 
 We hold regular meetings, both casual and formal. These gatherings let members network, share skills, and work on community projects.
 
