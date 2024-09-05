@@ -17,7 +17,7 @@ We hold regular meetings, both casual and formal. These gatherings let members n
   {{ event.simple_html_description }}
 {% endical %}
 
-[WebCal](webcal:/assets/cal/discord_events.ics) \| [Google Calendar](https://calendar.google.com/calendar/embed?src=0eq6crh4fvibpjd83k1ohhtl6ujh9qsq%40import.calendar.google.com&ctz=America%2FPhoenix) \| [Events Page](/events)
+[WebCal](webcal://exitnode.io/assets/cal/discord_events.ics) \| [Google Calendar](https://calendar.google.com/calendar/embed?src=0eq6crh4fvibpjd83k1ohhtl6ujh9qsq%40import.calendar.google.com&ctz=America%2FPhoenix) \| [Events Page](/events)
 
 
 # Connect
